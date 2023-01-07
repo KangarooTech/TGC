@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home||Taberah Glory Camp</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="icon" href="assets/images/logo-3.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div class="nav-bar">
+        <div class="container">
+            <a href="#"><img src="assets/images/logo-3.png" alt="Taberah Glory Camp"></a>
+            <img src="assets/images/sandwich menu.svg" alt="Open Navigation" class="mobile-menu" id="mobile-cta">
+            <nav>
+                <img class="exit" id="exit-cta" src="assets/images/exit.svg" alt="">
+                <ul class="primary-nav">
+                    <li class="active"><a href="#">Home</a></li>
+                    <li><a href="#events">Promotion Retreat</a></li>
+                    <li><a href="#offer">Offering</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+
+                <ul class="secondary-nav">
+                    
+                    <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSem8ClrM5yaEtllVJFiwY8WY1WobqQVp4O4J7QZvHp_2Xbafg/viewform?usp=sf_link" ><button class="btn btn-outline-primary" id="sib">Register for Promotion Retreat</button></a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <section class="hero">
+        <div class="container">
+            <div class="left-col">
+                <h3 class="sub-head">Taberah Glory Camp</h3>
+                <h1>Discipling Holy And Praying Men</h1>
+                <div class="hero-cta">
+                    <!-- <a href="#" class="primary-cta">Showing Live Now!!</a> -->
+                    <a href="live.html"><button class="btn btn-primary" id="primary-cta" type="button">Showing Live Now!!</button></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <a name="events"><section class="promotion-retreat"></a>
+                 <a href="promotion retreat.html"><img src="assets/images/IMG-20221216-WA0008.jpg" class="img img-fluid rounded" alt="Promotion retreat flyer"></a>
+               <p> PROMOTION RETREAT 2022 IS NEAR. TRY NOT TO MISS IT. </p><br>
+        <div class="links" style="margin-top: .5em;">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSem8ClrM5yaEtllVJFiwY8WY1WobqQVp4O4J7QZvHp_2Xbafg/viewform?usp=sf_link" class="register">Register For Promotion Retreat</a>
+            <a href="promotion retreat.html">Read More>></a>
+        </div>
+    </section>
+  
+  </div>
+    <section class="testimonials bg-secondary">
+        <div class="container-fluid">
+            <div class="row">
+                 <div class="col-md-6 my-2" id="drib">
+                    <a name="offer"></a>
+                <div class="card text-white bg-dark rounded">
+                    <div class="card-header">  
+                        
+                        <h2 style="text-align: center; font-family: cursive;">Giving</h2>
+                    </div>
+                    <div class="card-body">
+                        <blockquote style="font-size: 1.25em;">
+                            There are many ways to worhip. Giving into a ministry for the glory of God and the expansion of his kingdom is an act that wil never be forgotten and by God and he will surely reward you.
+                        </blockquote><br> <br>
+                        <a href="#" class="register" >Give Online</a>
+                    </div>
+                 </div>
+            </div>
+                <div class="col-md-6 my-2" id="dribs">
+                    <div class="card text-white bg-dark rounded">
+                    <div class="card-header">
+                    <h2 style="text-align: center; font-family: cursive;">SERVICE</h2>
+                     </div>
+                     <div class="card-body">
+                    <blockquote>
+                        To work for God is profitable. Do not be idle in the vineyard of the LORD. <br> 
+                        <span>  "I beseech you therefore, brethren, by the mercies of God, that ye present your bodies a living sacrifice, holy, acceptable unto God, which is your reasonable service."</blockquote>
+                        <cite>-Romans 12:1</cite><br> <br>
+                        </span>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd8jLOQJTRNQYOgUxwDtO3UpL4cDfkHVmOo_TEwKDczR-BlyA/viewform?usp=sf_link" style="text-align:center;" class="register">Volunteer Oppurtunity</a>
+                    </div>
+                 </div>
+            </div>
+            
+    </section>
+    <section> <a name="contact"></a>
+       <h2>Contact</h2>
+     Phone: +234(0)8028845618, +234(0)8033509441 <br>
+    E-mail: <a href="mailto:glorycamp@yaho.com">glorycamp@yaho.com</a>
+
+        <!-- icons -->
+</section>
+<hr>
+Copy Right &copy; 2022 Taberah Glory Camp All Rights Reserved <br>
+Designed by : <a href="mailto:eluziaako@gmail.com">Kangaroo Tech From SFI concept</a>
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+                nav = document.querySelector("nav")
+                mobileBtnExit=document.getElementById('exit-cta')
+                linkExit = document.querySelector("li");
+
+
+                mobileBtn.addEventListener('click', ()=>{
+                    nav.classList.add('menu-btn')
+                })
+                mobileBtnExit.addEventListener('click', ()=>{
+                    nav.classList.remove('menu-btn')
+                })
+                linkExit.addEventListener('click', ()=>{
+                    nav.classList.remove('menu-btn')
+                })
+    </script>
+     <script src="https://unpkg.com/@popperjscore@2.4.0/dist/umd/popper.min.js"></script>
+     <script src="js/bootstrap.js"></script> 
+</body>
+</html>
